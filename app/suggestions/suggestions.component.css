@@ -1,0 +1,89 @@
+@media only screen and (max-width: 1000px) {
+    main {
+        display: none;
+    }
+}
+
+main {
+    position: fixed;
+    top: 13vh;
+    left: 58vw;
+    font-size: 0.9rem;
+    max-width: 18vw;
+
+}
+
+#profImage {
+    content: url('https://i.pinimg.com/originals/ac/60/73/ac60731e69d9f2b091442a9ea012e4b2.jpg');
+    max-height: 56px;
+    max-width: 56px;
+    min-height: 56px;
+    min-width: 56px;
+    border-radius: 50px;
+}
+
+#organize {
+    display: flex;
+}
+
+aside {
+    margin-left: 10px; 
+}
+
+aside p {
+    margin: 0;
+    padding: 0;
+}
+
+aside p:last-child {
+    font-size: 0.8rem;
+    color: #8e8e8e;
+}
+
+section img {
+    content: url('https://i.pinimg.com/originals/ac/60/73/ac60731e69d9f2b091442a9ea012e4b2.jpg');
+    max-height: 32px;
+    max-width: 32px;
+    min-height: 32px;
+    min-width: 32px;
+    border-radius: 50px;
+}
+
+section {
+    margin-top: 20px;
+}
+
+section div {
+    margin-top: 10px;
+}
+
+header p {
+    font-size: 1.0rem;
+    color: #8e8e8e;
+}
+
+header a:last-child {
+    margin-left: auto;
+    margin-right: 20px;
+    color: black;
+}
+
+section a {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer a, footer p {
+    margin-right: 10px;
+    font-size: 0.7rem;
+    color: silver;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 0.8rem;
+}

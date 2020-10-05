@@ -1,0 +1,52 @@
+nav {
+    height: 8vh;
+    border-bottom: 1px solid #ccc;
+    background-color: white;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+div img {
+    object-fit: contain;
+    margin-left: 15px;
+}
+
+aside {
+    display: flex;
+    align-items: center;
+}
+
+aside a {
+    margin-left: 17px;
+    margin-bottom: 5px;
+    font-size: 1.7rem;
+    color: black;
+}
+
+input {
+    display: none;
+}
+
+@media only screen and (min-width: 600px) {
+    input {
+        display: initial;
+        margin-left: 20vw;
+        margin-right: 10vw;
+        background-color:#fafafa;
+        text-align: center;
+    }
+
+    aside {
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    nav {
+        height: 7vh;
+    } 
+}

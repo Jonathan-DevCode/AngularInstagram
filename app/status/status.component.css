@@ -1,0 +1,44 @@
+main {
+    display: flex;
+    border: 1px solid #ccc;
+    margin: 3px 0 20px 0;
+    background-color: white;
+    overflow-x: auto;
+}
+
+#first {
+    margin-left: 20px;
+}
+
+section {
+    text-align: center;
+}
+
+section p {
+    font-size: 0.8rem;
+}
+
+div {
+    padding: 2px;
+    margin: 10px;
+    margin-bottom: 0;
+    border: 1px solid red;
+    border-radius: 50px
+}
+
+div img {
+    content: url('https://i.pinimg.com/originals/24/af/61/24af6135855fbdaf7b114a4a4f43c792.png');
+    max-height: 56px;
+    max-width: 56px;
+    min-height: 56px;
+    min-width: 56px;
+    line-height: 56px;
+    border-radius: 50px;
+}
+
+@media only screen and (min-width: 1000px) {
+    main {
+        max-width: 35vw;
+        min-width: 35vw;
+    }
+}

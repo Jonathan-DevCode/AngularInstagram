@@ -1,0 +1,98 @@
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+
+header div img {
+    content: url("https://i.pinimg.com/originals/d6/6a/fb/d66afbf701f3c534e219c81580b39c51.png");
+    max-height: 32px;
+    max-width: 32px;
+    min-height: 32px;
+    min-width: 32px;
+    border-radius: 50px;
+
+}
+
+header div p {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+header a {
+    margin-left: auto;
+}
+
+section {
+    width: 100%;
+    height: 60vh;
+    background-image: url('https://previews.123rf.com/images/luckybusiness/luckybusiness1507/luckybusiness150700051/42200947-happy-young-people-on-beach.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#post {
+    display: flex;
+}
+
+#post a {
+    color: black;
+    margin-left: 17px;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+
+#liked {
+    display: flex;
+    margin-top: 5px;
+}
+
+#liked p {
+    margin: 0 0 5px 10px;
+}
+
+#liked img {
+    content: url("https://i.pinimg.com/originals/fd/e1/b5/fde1b5b843f0d3e2937164a02297efdf.jpg");
+    max-height: 20px;
+    max-width: 20px;
+    min-height: 20px;
+    min-width: 20px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+#last {
+    margin-left: auto;
+    margin-right: 17px;
+}
+
+@media only screen and (min-width: 600px) {
+    
+    main {
+        background-color: white;
+        border: 1px solid #ccc;
+    }
+    
+}
+
+@media only screen and (min-width: 1000px) {
+    main {
+        max-width: 35vw;
+        min-width: 35vw;
+    }
+
+    header {
+        max-height: 6vh;
+    }
+    
+}
