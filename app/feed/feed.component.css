@@ -76,19 +76,21 @@ section {
     margin-right: 17px;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 767px) {
     
     main {
         background-color: white;
         border: 1px solid #ccc;
+        margin-left: 10vw;
+        margin-right: 10vw;
     }
     
 }
 
 @media only screen and (min-width: 1000px) {
     main {
-        max-width: 35vw;
-        min-width: 35vw;
+        max-width: 50vw;
+        min-width: 50vw;
     }
 
     header {
