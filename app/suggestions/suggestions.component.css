@@ -15,10 +15,10 @@ main {
 
 #profImage {
     content: url('https://i.pinimg.com/originals/ac/60/73/ac60731e69d9f2b091442a9ea012e4b2.jpg');
-    max-height: 56px;
-    max-width: 56px;
-    min-height: 56px;
-    min-width: 56px;
+    max-height: 3.5rem;
+    max-width: 3.5rem;
+    min-height: 3.5rem;
+    min-width: 3.5rem;
     border-radius: 50px;
 }
 
@@ -27,7 +27,7 @@ main {
 }
 
 aside {
-    margin-left: 10px; 
+    margin-left: 0.7rem; 
 }
 
 aside p {
@@ -42,19 +42,19 @@ aside p:last-child {
 
 section img {
     content: url('https://i.pinimg.com/originals/ac/60/73/ac60731e69d9f2b091442a9ea012e4b2.jpg');
-    max-height: 32px;
-    max-width: 32px;
-    min-height: 32px;
-    min-width: 32px;
+    max-height: 2rem;
+    max-width: 2rem;
+    min-height: 2rem;
+    min-width: 2rem;
     border-radius: 50px;
 }
 
 section {
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 section div {
-    margin-top: 10px;
+    margin-top: 0.7rem;
 }
 
 header p {
@@ -64,26 +64,26 @@ header p {
 
 header a:last-child {
     margin-left: auto;
-    margin-right: 20px;
+    margin-right: 1.25rem;
     color: black;
 }
 
 section a {
     margin-left: auto;
-    margin-right: 20px;
+    margin-right: 1.25rem;
 }
 
 footer {
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 footer a, footer p {
-    margin-right: 10px;
+    margin-right: 0.7rem;
     font-size: 0.7rem;
     color: silver;
 }
 
 footer p {
-    margin-top: 20px;
+    margin-top: 1.25rem;
     font-size: 0.8rem;
 }
