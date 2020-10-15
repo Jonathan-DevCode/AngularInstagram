@@ -1,10 +1,10 @@
 @media only screen and (max-width: 1000px) {
-    main {
+    aside {
         display: none;
     }
 }
 
-main {
+aside {
     position: fixed;
     top: 13vh;
     left: 65vw;
@@ -26,16 +26,16 @@ main {
     display: flex;
 }
 
-aside {
+#suggestions-profile {
     margin-left: 0.7rem; 
 }
 
-aside p {
+#suggestions-profile p {
     margin: 0;
     padding: 0;
 }
 
-aside p:last-child {
+#suggestions-profile p:last-child {
     font-size: 0.8rem;
     color: #8e8e8e;
 }

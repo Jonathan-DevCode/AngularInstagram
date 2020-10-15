@@ -1,4 +1,4 @@
-main {
+header {
     display: flex;
     border: 1px solid #ccc;
     margin: 0.2rem 0 0.5rem 0;
@@ -6,27 +6,13 @@ main {
     overflow-x: auto;
 }
 
-#first {
-    margin-left: 0.5rem;
-}
-
-section {
+ul {
+    list-style-type: none;
     text-align: center;
+    overflow-x: scroll;
 }
-
-section p {
-    font-size: 0.8rem;
-}
-
-div {
-    padding: 0.2rem;
-    margin: 0.5rem;
-    margin-bottom: 0;
-    border: 1px solid red;
-    border-radius: 50px
-}
-
-div img {
+  
+ul img {
     content: url('https://i.pinimg.com/originals/24/af/61/24af6135855fbdaf7b114a4a4f43c792.png');
     max-height: 3.5rem;
     max-width: 3.5rem;
@@ -36,9 +22,27 @@ div img {
     border-radius: 50px;
 }
 
+li {
+    float: left;
+    margin-top: 0.5rem;
+}
+
+div{
+    padding: 0.2rem;
+    margin: 0.5rem;
+    margin-bottom: 0;
+    border: 1px solid red;
+    border-radius: 50px;
+}
+
+span {
+    float: none;
+    font-size: 0.8rem;
+}
+
 @media only screen and (min-width: 767px) {
     
-    main {
+    header {
         margin-left: 10vw;
         margin-right: 10vw;
     }
@@ -46,7 +50,7 @@ div img {
 }
 
 @media only screen and (min-width: 1000px) {
-    main {
+    header {
         max-width: 50vw;
         min-width: 50vw;
     }

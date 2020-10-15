@@ -1,18 +1,18 @@
-header {
+#feed-header {
     display: flex;
     align-items: center;
     padding: 1.2px;
     padding-bottom: 0.7px;
 }
 
-header div {
+#feed-header div {
     display: flex;
     align-items: center;
     width: 100%;
 
 }
 
-header div img {
+#feed-header div img {
     content: url("https://i.pinimg.com/originals/d6/6a/fb/d66afbf701f3c534e219c81580b39c51.png");
     max-height: 2rem;
     max-width: 2rem;
@@ -23,18 +23,18 @@ header div img {
 
 }
 
-header div p {
+#feed-header div p {
     margin-left: 0.7rem;
     margin-top: 0.7rem;
 }
 
 
-header a {
+#feed-header a {
     margin-left: auto;
     margin-right: 0.7rem;
 }
 
-section {
+article {
     width: 100%;
     height: 60vh;
     background-image: url('https://previews.123rf.com/images/luckybusiness/luckybusiness1507/luckybusiness150700051/42200947-happy-young-people-on-beach.jpg');
@@ -95,7 +95,7 @@ section {
         min-width: 50vw;
     }
 
-    header {
+    #feed-header {
         max-height: 6vh;
     }
     
